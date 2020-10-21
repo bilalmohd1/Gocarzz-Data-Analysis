@@ -1,0 +1,29 @@
+,,employee,,,,joining_date,,,
+,emp no,employee_name,mangr_id,,,employee_id,join_date,,
+,1,mike,3,,,1,01-Mar-08,,
+,2,david,3,,,2,01-Apr-05,,
+,3,roger,null,,,3,01-Jan-00,,
+,4,marry,2,,,4,01-Jun-01,,
+,5,joseph,2,,,5,01-Sep-01,,
+,7,ben,2,,,7,01-Sep-04,,
+,,,,,0,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,tablename,output,,,create table output as,,,,"SELECT Name, COUNT(Column1) AS Total, COUNT(Column1) AS YearToDate"
+,emp,mngr,,,select case when (emp_no=1 then employee_name else null ,,,,FROM Table1
+,mike,roger,,,"end) as  emp,case (when mangr_id=null then employee_name",,,,WHERE Occurred_Date BETWEEN '2010-06-01' AND '2010-06-30' --Total
+,,,,,else null end) as mngr from employee,,,,UNION 
+,,,,,,,,,"SELECT Name, COUNT(Column1) AS Total, COUNT(Column1) AS YearToDate"
+,,create table output,,,,,,,FROM Table1
+,,select employee_name ,,,select employee_name as before_joining from employee full outer join joining_date,,,,WHERE Occurred_Date BETWEEN '2010-01-01' AND '2010-06-30' --YearToDate
+,,,,,on employee.emp_no=joining_date.emp_no,,,,
+,,,,,"where join_date<""""01-jan-2000"";",,,,
+employe name and manager name against each other,,,,,,,,,select employe_name as emp from employee
+employe who joined before their manager,,,,,,,,,where emp_id=1
+"you travel 20 km in total,for the first 10 km your speed was 100 km/hr and 2nd 10km was 120km/hr.what was your avg speed for total distance.",,,,,,,,,union
+,,,,,,,,,select employe name as mngr from employee
+,,100,,20,0.1,6,,,where mangr_id=null ;
+,,,,,0.083333333,5,,,
+,,,,,t=d/s,1.818181818,,,
+,Average Speed = (Total distance)/(Total Time),,,,,,,,
