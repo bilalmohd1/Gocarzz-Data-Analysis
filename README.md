@@ -6,7 +6,12 @@ Data Analysis in gocarzz row data
 3. What are the payment preferences for Economy and Business users in Dammam?
 4. For each city, which car type has the longest trips on average?
 #########
+
+
 Analytical
+
+
+
 5. What day of the week is the least active?
 6. What are the peak hours?
 7. If you can add 5 drivers to any given hour, which hour would you choose?
